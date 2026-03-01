@@ -1,7 +1,12 @@
-import EmirsahErden.school.model.Student;
-import EmirsahErden.school.service.StudentService;
+package school;
 
-void main() {
+import school.model.Student;
+import school.service.StudentService;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
 
 
 //    Student s = new Student("Ali", 123, 70, 10, 20);
@@ -65,4 +70,5 @@ void main() {
 
     input.close();
 
+}
 }

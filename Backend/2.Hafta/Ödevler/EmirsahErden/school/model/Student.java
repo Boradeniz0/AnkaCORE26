@@ -1,6 +1,6 @@
-package EmirsahErden.school.model;
+package school.model;
 
-import java.util.Scanner;
+
 
 public class Student {
 
@@ -58,5 +58,3 @@ public class Student {
 
 
 }
-
-

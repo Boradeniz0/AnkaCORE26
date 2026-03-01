@@ -1,7 +1,7 @@
-package EmirsahErden.school.service;
+package school.service;
 
 
-import EmirsahErden.school.model.Student;
+import school.model.Student;
 
 public class StudentService {
 
