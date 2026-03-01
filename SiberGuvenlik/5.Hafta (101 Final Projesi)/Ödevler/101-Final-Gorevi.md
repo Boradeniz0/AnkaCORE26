@@ -194,4 +194,5 @@ Final operasyonu sırasında 3 farklı cephede savaşırken hayat kurtaracak kri
 * **Dosya Çıkartma:** `File > Export Objects > HTTP` yolunu izleyerek ağ trafiği içinde indirilen zararlı dosyaları (exe, dll) PCAP'ten dışarı aktarabilirsiniz.
 
 **Bildiğiniz her şeyi masaya koyun. Başarılar dileriz.**
+
 *AnkaCORE Operasyon Merkezi* 🦅
