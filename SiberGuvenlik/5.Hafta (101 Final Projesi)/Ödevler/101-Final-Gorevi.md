@@ -155,10 +155,11 @@ Bu rapor, sizin 101 aşamasındaki **Mezuniyet Tezinizdir**. Teslim etmeden önc
 * **Sayfa Düzeni ve Kontrol Listesi:**
     * [ ] **Kapak Sayfası:** Eğitim Adı, Proje Adı, Adınız Soyadınız ve Tarih.
     * [ ] **İçindekiler Tablosu:** (Uzun bir rapor olacağı için okumayı kolaylaştırmalıdır).
-    * [ ] **Faz 1 (Saha Operasyonu):** Gerçek bir VDP hedefi üzerinde yapılan zafiyet taramasının profesyonel raporu (CVSS Skoru ve Impact açıklaması ile birlikte).
-    * [ ] **Faz 2 / Cephe 1 (Linux):** Bandit 11-15 arası şifrelerin ve kullanılan komutların mantıksal açıklamaları.
-    * [ ] **Faz 2 / Cephe 2 (Web):** Natas 0-10 arası seviyelerin Burp Suite ekran görüntüleri, kullanılan payload'lar ve zafiyet türleri.
-    * [ ] **Faz 2 / Cephe 3 (Ağ):** C2 Carnage odasındaki PCAP analizine ait Wireshark filtre ekran görüntüleri ve zararlı trafik tespitleri.
+    * [ ] **Faz 1 / Cephe 1 (Linux):** Bandit 11-15 arası şifrelerin ve kullanılan komutların mantıksal açıklamaları.
+    * [ ] **Faz 1 / Cephe 2 (Web):** Natas 0-10 arası seviyelerin Burp Suite ekran görüntüleri, kullanılan payload'lar ve zafiyet türleri.
+    * [ ] **Faz 1 / Cephe 3 (Ağ):** C2 Carnage odasındaki PCAP analizine ait Wireshark filtre ekran görüntüleri ve zararlı trafik tespitleri.
+    * [ ] **Faz 2 (Saha Operasyonu):** Gerçek bir VDP hedefi üzerinde yapılan zafiyet taramasının profesyonel raporu (CVSS Skoru ve Impact açıklaması ile birlikte).
+    
 * **Yükleme Adımları:** Kendi GitHub reponuzda oluşturacağınız `101-Final` klasörüne PDF dosyanızı yükleyip, ana repoya **Pull Request (PR)** açın.
 
 ⚠️ **KRİTİK UYARI:**
