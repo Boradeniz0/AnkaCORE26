@@ -140,7 +140,6 @@ Projeniz aşağıdaki katmanlardan oluşmalıdır:
 com.librarymanagementsystem/
 ├── controller/          # REST Controller sınıfları
 ├── service/             # İş mantığı katmanı
-│   └── impl/            # Service implementasyonları
 ├── repository/          # Veri erişim katmanı (JPA Repository)
 ├── entity/              # JPA Entity sınıfları
 ├── dto/                 # Data Transfer Object sınıfları
@@ -166,7 +165,6 @@ com.librarymanagementsystem/
 | Lombok | Kod tekrarını azaltma |
 | ModelMapper | Entity-DTO dönüşümü |
 | Bean Validation | Input validasyonu |
-| Swagger/OpenAPI | API dokümantasyonu |
 
 #### 4.3. Zorunlu Teknik Gereksinimler
 
@@ -214,9 +212,6 @@ com.librarymanagementsystem/
 6. **Loglama:**
    - Service katmanında kritik işlemler loglanmalıdır (info, error seviyelerinde).
 
-7. **API Dokümantasyonu:**
-   - Swagger/OpenAPI entegrasyonu yapılmalıdır.
-
 ---
 
 ### 5. Teslim Edilecekler
@@ -231,84 +226,12 @@ com.librarymanagementsystem/
 3. **API Test Dosyası:**
    - Postman Collection (.json) - tüm endpoint'leri kapsayan testler
 
-4. **Proje Raporu (PDF):**
-   - Kullanılan teknolojiler ve nedenleri
-   - Veritabanı şeması (diagram)
-   - API endpoint listesi
-   - Karşılaşılan zorluklar ve çözümleri
-
 ---
 
-### 6. Değerlendirme Kriterleri
+### 6. Teslimat Adresi ve Tarih
 
-| Kategori | Açıklama | Puan |
-|----------|----------|------|
-| **Java Temelleri** | OOP prensiplerine uygun kod yazımı, collection kullanımı, exception handling | 10 |
-| **Proje Yapısı** | Katmanlı mimariye uygunluk, package organizasyonu | 10 |
-| **Spring Boot Kullanımı** | Dependency Injection, IoC, configuration yönetimi | 10 |
-| **REST API Tasarımı** | Endpoint isimlendirme kuralları, HTTP metodlarının doğru kullanımı | 10 |
-| **Veritabanı İşlemleri** | JPA kullanımı, entity ilişkileri, repository yapısı | 10 |
-| **DTO ve Validation** | DTO kullanımı, validasyon kuralları, custom validasyon mesajları | 10 |
-| **Exception Handling** | Global exception handler, custom exception'lar, hata mesajları | 10 |
-| **İş Kuralları** | Tüm iş kurallarının doğru implementasyonu | 15 |
-| **Dokümantasyon** | Swagger entegrasyonu, README, Postman collection | 5 |
-| **Kod Kalitesi** | Temiz kod prensipleri, naming conventions, gereksiz kod olmaması | 10 |
-| **Toplam** | | **100** |
-
-**Başarılı Olma Koşulu:** En az 70 puan almak.
-
----
-
-### 7. Ekstra Bonus Puanlar
-
-| Bonus | Açıklama | Puan |
-|-------|----------|------|
-| **JWT Authentication** | Spring Security ile JWT tabanlı kimlik doğrulama eklenmesi | +5 |
-| **Unit Test** | Service katmanı için JUnit testleri yazılması (%80 coverage) | +5 |
-| **Redis Cache** | Sık erişilen verilerin cache'lenmesi | +5 |
-| **Docker** | Projenin Docker ile containerize edilmesi | +5 |
-| **Raporlama Endpoint'i** | En çok ödünç alınan kitaplar, en aktif kullanıcılar gibi rapor endpoint'leri | +5 |
-
----
-
-### 8. Zaman Planlaması
-
-| Aşama | Süre | Tarih |
-|-------|------|-------|
-| Proje tanıtımı ve başlangıç | 1 gün | - |
-| Veritabanı tasarımı ve entity oluşturma | 2 gün | - |
-| Repository ve temel CRUD işlemleri | 2 gün | - |
-| Service katmanı ve iş kuralları | 3 gün | - |
-| Controller katmanı ve API endpoint'leri | 3 gün | - |
-| Validation ve Exception Handling | 2 gün | - |
-| Test, dokümantasyon ve teslimat | 2 gün | - |
-| **Toplam** | **15 gün** | - |
-
----
-
-### 9. Sık Sorulan Sorular
-
-**S1: Projeyi bireysel mi yoksa grup olarak mı yapacağız?**
-- Proje bireysel olarak yapılacaktır.
-
-**S2: Veritabanı olarak farklı bir DB kullanabilir miyim?**
-- PostgreSQL tercih edilmelidir, ancak H2 gibi in-memory bir veritabanı da kullanılabilir. Ancak teslim edilecek dump dosyası istenecektir.
-
-**S3: Frontend geliştirmemiz gerekiyor mu?**
-- Hayır, sadece backend REST API geliştirilecektir. API testleri Postman ile yapılacaktır.
-
-**S4: Kullandığım IDE önemli mi?**
-- Hayır, IntelliJ IDEA, Eclipse veya VS Code kullanabilirsiniz.
-
-**S5: Yardım alabilir miyim?**
-- Eğitmenlerinizden konu ile ilgili sorular sorabilirsiniz, ancak kod çözümü konusunda doğrudan yardım alınmayacaktır.
-
----
-
-### 10. Teslimat Adresi ve Tarih
-
-- **Teslim Tarihi:** [Tarih bilgisi eğitmen tarafından doldurulacak]
-- **Teslim Adresi:** [GitHub repo linki ve proje raporu PDF olarak eğitmenin mail adresine gönderilecek]
+- **Teslim Tarihi:** 30 Nisan 2026
+- **Teslim Adresi:** https://github.com/AnkaSEC/AnkaCORE26/tree/main/Backend/10.Hafta/Ödevler/{AdSoyad}
 
 ---
 
